@@ -4,11 +4,11 @@
 
 Command:
 
-telnet localhost 23
+    telnet localhost 23
 
 Result:
 
-Connection succeeded (if Telnet service running)
+    Connection succeeded (if Telnet service running)
 
 ---
 
@@ -16,12 +16,12 @@ Connection succeeded (if Telnet service running)
 
 Command:
 
-sudo ufw deny 23
+    sudo ufw deny 23
 
 Result:
 
-Rule added  
-Rule added (v6)
+    Rule added  
+    Rule added (v6)
 
 ---
 
@@ -29,12 +29,12 @@ Rule added (v6)
 
 Command:
 
-telnet localhost 23
+    telnet localhost 23
 
 Result:
 
-Trying 127.0.0.1...  
-telnet: Unable to connect to remote host: Connection refused
+    Trying 127.0.0.1...  
+    telnet: Unable to connect to remote host: Connection refused
 
 ---
 
@@ -42,11 +42,11 @@ telnet: Unable to connect to remote host: Connection refused
 
 Command:
 
-sudo ufw allow 22
+    sudo ufw allow 22
 
 Result:
 
-SSH port remains open and reachable.
+    SSH port remains open and reachable.
 
 ---
 
@@ -54,10 +54,10 @@ SSH port remains open and reachable.
 
 Command:
 
-sudo ufw delete deny 23
+    sudo ufw delete deny 23
 
 Result:
 
-Rule deleted
+    Rule deleted
 
 ---
