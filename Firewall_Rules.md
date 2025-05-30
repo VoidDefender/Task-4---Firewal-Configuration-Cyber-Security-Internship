@@ -19,9 +19,9 @@ Logging: on (low)
 Default: deny (incoming), allow (outgoing), disabled (routed)  
 New profiles: skip  
 
-To                         Action      From  
---                         ------      ----  
-22/tcp                     ALLOW       Anywhere
+    To                         Action      From  
+    --                         ------      ----  
+    22/tcp                     ALLOW       Anywhere
 
 ---
 
