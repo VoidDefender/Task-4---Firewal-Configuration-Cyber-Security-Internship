@@ -29,7 +29,7 @@ Configure and test basic firewall rules using **UFW (Uncomplicated Firewall)** o
 - `Summary.md` – Date, tool, objectives, and author.
 - `Firewall Rules.md` – All UFW commands and actual outputs.
 - `Firewall Test Result.md` – Test results verifying port block and allow behavior.
-- `Simulated-Terminal-Outputs/`
+- `Terminal-Outputs/`
   - `firewall-rules.md` – Full UFW rule status and application steps.
   - `port-23-blocked-test.md` – Telnet block test command and result.
   - `ssh-allowed-rule.md` – SSH allow rule verification.
