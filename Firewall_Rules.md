@@ -66,4 +66,4 @@ Status: active
 
      To                         Action      From  
      --                         ------      ----  
-[ 1] 22/tcp                     ALLOW       Anywhere
+    [1] 22/tcp                     ALLOW       Anywhere
