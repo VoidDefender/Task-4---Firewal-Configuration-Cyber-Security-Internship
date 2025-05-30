@@ -64,6 +64,8 @@ sudo ufw status numbered
 Output:
 Status: active  
 
-       To                           Action        From  
-       --                           ------        ----  
-    [1] 22/tcp                      ALLOW       Anywhere
+    To                          Action        From  
+    --                          ------        ----  
+    22/tcp                      ALLOW        Anywhere
+
+---
