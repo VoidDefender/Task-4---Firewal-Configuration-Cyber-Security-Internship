@@ -1,4 +1,4 @@
-# Task 4 - Firewall Configuration | Cyber Security Internship
+# Firewall Configuration | Cyber Security
 
 ## Objective:
 
